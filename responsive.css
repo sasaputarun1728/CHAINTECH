@@ -1,0 +1,121 @@
+@media only screen and (max-width: 768px) {
+    #navbar ul {
+        padding-left: 0;
+        justify-content: center;
+        
+    }
+    #navbar .logo img {
+        padding-left: 0;
+    }
+    #home {
+        padding: 3px 20px;
+    }
+    #home h1 {
+        font-size: 60px;
+    }
+    #home p {
+        font-size: 16px;
+        padding: 2px 20px;
+    }
+    .services h1 {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .services p {
+        margin-left: 20px;
+        margin-top: -20px;
+        font-size: 14px;
+    }
+    .container {
+        justify-content: flex-start;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: calc(50% - 24px);
+        margin-top: 20px;
+    }
+    .footer img {
+        height: 80px;
+    }
+    .horizontal-line {
+        margin: 10px 0;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    .footer{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #navbar ul {
+        padding-left: 10px;
+        padding-top: 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #home h1 {
+        font-size: 40px;
+    }
+    #home p {
+        font-size: 14px;
+    }
+    .services h1 {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .services p {
+        margin-left: 10px;
+        margin-top: -15px;
+        font-size: 12px;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .box1 img,
+    .box2 img,
+    .box3 img,
+    .box4 img {
+        width: 100%;
+    }
+    .upper-section img {
+        height: 20px;
+        width: 20px;
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+    .upper-section p {
+        margin-left: 6px;
+        font-size: 12px;
+    }
+    .explore-btn {
+        margin-left: 40px;
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+    .arrow {
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        margin-left: 6px;
+        margin-right: -8px;
+    }
+    .footer img {
+        height: 60px;
+    }
+    .footer{
+        height: 200px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}
